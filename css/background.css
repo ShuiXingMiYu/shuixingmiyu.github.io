@@ -1,57 +1,103 @@
 #web_bg {
   background: -webkit-linear-gradient(
     0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
+    rgba(247, 149, 51, 0.2) 0,
+    rgba(243, 112, 85, 0.2) 15%,
+    rgba(239, 78, 123, 0.2) 30%,
+    rgba(161, 102, 171, 0.2) 44%,
+    rgba(80, 115, 184, 0.2) 58%,
+    rgba(16, 152, 173, 0.2) 72%,
+    rgba(7, 179, 155, 0.2) 86%,
+    rgba(109, 186, 130, 0.2) 100%
   );
   background: -moz-linear-gradient(
     0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
+    rgba(247, 149, 51, 0.2) 0,
+    rgba(243, 112, 85, 0.2) 15%,
+    rgba(239, 78, 123, 0.2) 30%,
+    rgba(161, 102, 171, 0.2) 44%,
+    rgba(80, 115, 184, 0.2) 58%,
+    rgba(16, 152, 173, 0.2) 72%,
+    rgba(7, 179, 155, 0.2) 86%,
+    rgba(109, 186, 130, 0.2) 100%
   );
   background: -o-linear-gradient(
     0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
+    rgba(247, 149, 51, 0.2) 0,
+    rgba(243, 112, 85, 0.2) 15%,
+    rgba(239, 78, 123, 0.2) 30%,
+    rgba(161, 102, 171, 0.2) 44%,
+    rgba(80, 115, 184, 0.2) 58%,
+    rgba(16, 152, 173, 0.2) 72%,
+    rgba(7, 179, 155, 0.2) 86%,
+    rgba(109, 186, 130, 0.2) 100%
   );
   background: -ms-linear-gradient(
     0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
+    rgba(247, 149, 51, 0.2) 0,
+    rgba(243, 112, 85, 0.2) 15%,
+    rgba(239, 78, 123, 0.2) 30%,
+    rgba(161, 102, 171, 0.2) 44%,
+    rgba(80, 115, 184, 0.2) 58%,
+    rgba(16, 152, 173, 0.2) 72%,
+    rgba(7, 179, 155, 0.2) 86%,
+    rgba(109, 186, 130, 0.2) 100%
   );
   background: linear-gradient(
     90deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
+    rgba(247, 149, 51, 0.2) 0,
+    rgba(243, 112, 85, 0.2) 15%,
+    rgba(239, 78, 123, 0.2) 30%,
+    rgba(161, 102, 171, 0.2) 44%,
+    rgba(80, 115, 184, 0.2) 58%,
+    rgba(16, 152, 173, 0.2) 72%,
+    rgba(7, 179, 155, 0.2) 86%,
+    rgba(109, 186, 130, 0.2) 100%
   );
+}
+.layout>#post{
+    background: rgba(255,255,255,.4);
+}
+#aside-content>.sticky_layout>.card-widget{
+    background: rgba(255,255,255,.4);
+}
+/*侧边栏页面*/
+#aside-content>.card-widget  {
+    background: rgba(255,255,255,0.4);
+}
+[data-theme=dark] #aside-content>.card-widget  {
+    background: rgba(22, 18, 18, 0.4);
+}
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget{
+    background: rgba(25,25,25,.4);
+}
+[data-theme=dark] .layout>#post{
+    background: rgba(25,25,25,.4);
+}
+/* 首页文章 */
+#recent-posts>.recent-post-item:hover .recent-post-info .content {
+    opacity: 1;
+    line-height: 2;
+    transition: all .2s;
+}
+/*
+#recent-posts>.recent-post-item>.recent-post-info>.content {
+    opacity: 0;
+    line-height: .7;
+    transition: all .3s;
+}*/
+
+
+#recent-posts>.recent-post-item .post_cover img.post_bg {
+    border-radius: 30px;
+    padding: 15px
+}
+
+
+#recent-posts>.recent-post-item:hover img.post_bg {
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -o-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
 }
