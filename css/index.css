@@ -5893,6 +5893,9 @@ blockquote.pullquote.right {
 #recent-posts > .recent-post-item{
     background:rgba(255, 255, 255, 0.4);
 }
+[data-theme=dark] #recent-posts > .recent-post-item{
+    background:rgba(22, 18, 18, 0.4);
+}
 /*
 #recent-posts>.recent-post-item>.recent-post-info>.content {
     opacity: 0;
