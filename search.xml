@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>01 计算机初识</title>
+      <link href="/2023/09/02/01%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%88%9D%E8%AF%86/"/>
+      <url>/2023/09/02/01%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%88%9D%E8%AF%86/</url>
+      
+        <content type="html"><![CDATA[<p>要知道，计算机只是一台机器，它有以下功能：</p><ul><li>移动数据</li><li>算术逻辑运算</li><li>控制硬件运行</li></ul><p>为什么要从汇编语言开始学习？</p><ul><li>因为今天所有的语言，包括但不限于Java、Python等等都是建立在C语言的基础之上的。</li><li>而C语言是建立在汇编语言基础之上的。</li><li>也就是说，这些Java等语言会先转化为C语言，然后C语言在转化为汇编语言，汇编语言在翻译成机器语言在机器上运行的。</li><li>这是计算机的基石，要学习计算机，最好是从根上开始学。</li></ul><p>我不直接从汇编开始，直接学高级语言，例如Java可以吗？</p><ul><li>当然可以，不过我觉得基础决定能力上限，如果要全面系统学习计算机，汇编语言当然是要学习的。</li></ul><blockquote><p><strong>汇编指令就是将数据从内存与寄存器之间来回移动。</strong></p></blockquote><blockquote><p><strong>计算机原理就是数数，查表、查地址。</strong></p></blockquote><p><strong>汇编指令与机器码是一一对应的关系。</strong></p><p><strong>汇编指令是机器码的助记符。</strong></p><p>汇编不依赖操作系统，直接操作硬件。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章测试</title>
       <link href="/2023/08/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/"/>
       <url>/2023/08/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</url>
